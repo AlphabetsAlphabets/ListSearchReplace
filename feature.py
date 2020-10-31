@@ -11,7 +11,7 @@ def search(board, element_to_search, nested=False):
             try:
                 if board[ltr] == ets:
                     return ltr
-                elif board[rtl] == find:
+                elif board[rtl] == ets:
                     return rtl
                 else:
                     ltr += 1
@@ -23,15 +23,15 @@ def search(board, element_to_search, nested=False):
     else:
         while guard < limit:
             for index, list1 in enumerate(board):
-                    try:
-                        if list1[ltr] == ets:
-                            return index, ltr
-                        elif list1[rtl] == ets:
-                            return index, rtl
-                        else:
-                            ltr += 1
-                            rtl -= 1
+                try:
+                    if list1[ltr] == ets:
+                        return index, ltr
+                    elif list1[rtl] == ets:
+                        return index, rtl
+                    else:
+                        ltr += 1
+                        rtl -= 1
 
-                    except IndexError:
-                        guard += 1
-                        continue
+                except IndexError:
+                    guard += 1
+                    continue
