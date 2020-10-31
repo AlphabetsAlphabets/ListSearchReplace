@@ -23,10 +23,13 @@ def search(board, element_to_search, nested=False):
                 continue
 
     else:
-        if board[rtl] == ets:
-            return rtl
-        elif board[ltr] == ets:
-            return ltr
+        if ets in board:
+            if board[rtl] == ets:
+                return rtl
+            elif board[ltr] == ets:
+                return ltr
+            else:
+                ltr += 1
+                rtl -= 1
         else:
-            ltr += 1
-            rtl -= 1
+            return None
