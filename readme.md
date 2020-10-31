@@ -2,6 +2,8 @@
 The purpose of this algorithm is to allow the user, to change elements within a list. Search if an element exists within a list, and a list within a list. Furthermore, having the ability to replace the value with something of use.
 
 # Features, and limitations
+Link to [documentation](https://github.com/YJH16120/ListSearchReplace/blob/master/docs.md)
+
 ### Features
 1. Able to search, and replace elements within a list. Even if the list is two layers deep. Meaning it has a list inside a list. While searching there will be return values. If you have a two layered list, it will return the indexs of the value. Which will get you to that element, for you to replace it or change it.
 
