@@ -6,7 +6,7 @@ Currently the __readme.md__ file has documentation(this term is relative) on the
 Once I have written more algorithms. Each individual algorithm will be contained in it's on folder. With it's own readme file, outlining its use, and limitations.
   
 # Features, and limitations
-Link to (documentation)[https://github.com/YJH16120/ListSearchReplace/blob/master/docs.md]  
+Link to [documentation](https://github.com/YJH16120/ListSearchReplace/blob/master/docs.md)
 
 ### Features
 1. Able to search, and replace elements within a list. Even if the list is two layers deep. Meaning it has a list inside a list. While searching there will be return values. If you have a two layered list, it will return the indexs of the value. Which will get you to that element, for you to replace it or change it.
